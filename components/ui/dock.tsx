@@ -98,7 +98,6 @@ export interface DockIconProps
   magnification?: number;
   distance?: number;
   mouseX?: MotionValue<number>;
-  mouseY?: MotionValue<number>;
   className?: string;
   children?: React.ReactNode;
   props?: PropsWithChildren;
@@ -109,7 +108,6 @@ const DockIcon = ({
   magnification = DEFAULT_MAGNIFICATION,
   distance = DEFAULT_DISTANCE,
   mouseX,
-  mouseY,
   className,
   children,
   ...props

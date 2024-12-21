@@ -2,13 +2,10 @@
 
 import Image from 'next/image';
 import React from 'react'
-import { useTheme } from "next-themes";
 
 import ShineBorder from "./ui/shine-border";
 
 function Intro() {
-
-    const theme = useTheme();
 
     return (
         <div className='w-full flex justify-between items-center flex-col-reverse sm:flex-row gap-3'>

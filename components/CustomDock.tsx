@@ -95,7 +95,8 @@ export function CustomDock({ orientation }: { orientation: "vertical" | "horizon
         handleResize();
         return () => window.removeEventListener("resize", handleResize);
     }, []);
-
+ console.log(orientation);
+ 
   return (
     <div className={
         `${
