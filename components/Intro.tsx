@@ -5,7 +5,6 @@ import React from 'react'
 import { useTheme } from "next-themes";
 
 import ShineBorder from "./ui/shine-border";
-import BlurFade from "./ui/blur-fade";
 
 function Intro() {
 
