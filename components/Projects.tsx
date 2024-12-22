@@ -99,7 +99,7 @@ const Projects = () => {
         </h1>
         <div className='grid sm:grid-cols-2 2xl:grid-cols-3 sm:gap-6 gap-4 place-items-center'>
             { projects?.map((project, index) =>(
-                <div className="max-w-sm rounded overflow-hidden shadow-lg flex flex-col dark:shadow-zinc-800" key={index}>
+                <div className="max-w-sm rounded overflow-hidden shadow-lg flex flex-col dark:shadow-zinc-800 min-h-full" key={index}>
                     <Image className="w-full" src={project.image} alt={project.title} width={1000} height={1000} />
                     <div className="px-6 py-4 flex-1">
                         <div className="font-bold text-xl mb-2">{project.title}</div>
